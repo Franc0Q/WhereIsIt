@@ -1,6 +1,6 @@
 # WhereIsIt
 
-- [ ]
+**App Android de objetos perdidos y hallados del campus universitario.**
 
 ## Descripción
 
