@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">WhereIsIt</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_map">Mapa</string>
+    <string name="nav_my_posts">Mis publicaciones</string>
+
+    <!-- Common actions -->
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_publish">Publicar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_view_details">Ver detalle</string>
+    <string name="action_clear_filters">Limpiar filtros</string>
+
+    <!-- Home list -->
+    <string name="home_search_hint">Buscar objeto…</string>
+    <string name="home_empty">No se encontraron objetos</string>
+    <string name="item_category_label">Categoría:</string>
+
+    <!-- Filters -->
+    <string name="filter_all">Todos</string>
+    <string name="filter_lost">Perdidos</string>
+    <string name="filter_found">Encontrados</string>
+    <string name="filter_delivered">Entregados</string>
+    <string name="filter_category">Categoría</string>
+    <string name="filter_zone">Zona</string>
+    <string name="filter_date">Fecha</string>
+
+    <!-- Status badges -->
+    <string name="status_lost">Perdido</string>
+    <string name="status_found">Encontrado</string>
+    <string name="status_delivered">Entregado</string>
+
+    <!-- Categories -->
+    <string name="category_backpack">Mochilas</string>
+    <string name="category_keys">Llaves</string>
+    <string name="category_phone">Celulares</string>
+    <string name="category_documents">Documentos</string>
+    <string name="category_wallet">Billeteras</string>
+    <string name="category_clothing">Ropa</string>
+    <string name="category_electronics">Electrónicos</string>
+    <string name="category_other">Otros</string>
+
+    <!-- Campus zones -->
+    <string name="zone_library">Biblioteca</string>
+    <string name="zone_cafeteria">Cafetería</string>
+    <string name="zone_building_a">Edificio A</string>
+    <string name="zone_building_b">Edificio B</string>
+    <string name="zone_gym">Gimnasio</string>
+    <string name="zone_parking">Parqueo</string>
+    <string name="zone_other">Otra</string>
+
+    <!-- Delivery methods -->
+    <string name="delivery_picked_up_by_owner">Lo recogió su dueño</string>
+    <string name="delivery_left_at_security">Lo dejé en seguridad del campus</string>
+
+    <!-- Detail -->
+    <string name="detail_title">Detalle</string>
+    <string name="detail_posted_by">Publicado por</string>
+    <string name="detail_claim_button">Contactar / Reclamar</string>
+    <string name="detail_mark_delivered">Marcar como entregado</string>
+    <string name="detail_not_found">Objeto no encontrado</string>
+
+    <!-- Form -->
+    <string name="form_title_new">Nueva publicación</string>
+    <string name="form_title_edit">Editar publicación</string>
+    <string name="form_type_lost">Lo perdí</string>
+    <string name="form_type_found">Lo encontré</string>
+    <string name="form_photo_placeholder">Tomar foto o elegir de la galería</string>
+    <string name="form_field_title">Título</string>
+    <string name="form_field_category">Categoría</string>
+    <string name="form_field_description">Descripción</string>
+    <string name="form_description_hint">Color, marca, detalles únicos…</string>
+    <string name="form_field_location">Lugar</string>
+    <string name="form_location_hint">Tocar para elegir en el mapa</string>
+    <string name="form_field_date">Fecha</string>
+
+    <!-- Validation errors -->
+    <string name="error_title_required">Escribe un título</string>
+    <string name="error_description_required">Escribe una descripción</string>
+    <string name="error_location_required">Elige un lugar en el mapa</string>
+    <string name="error_claim_answer_required">Escribe tu respuesta</string>
+
+    <!-- Photo picker -->
+    <string name="photo_sheet_title">Agregar foto</string>
+    <string name="photo_take">Tomar foto con la cámara</string>
+    <string name="photo_gallery">Elegir de la galería</string>
+    <string name="photo_video">Grabar un video corto</string>
+    <string name="permission_camera_denied">Se necesita el permiso de la cámara para tomar fotos</string>
+
+    <!-- Map -->
+    <string name="map_title">Mapa del campus</string>
+    <string name="map_pick_location">Seleccionar ubicación</string>
+
+    <!-- My posts -->
+    <string name="my_posts_title">Mis publicaciones</string>
+    <string name="my_posts_empty">Aún no has publicado nada</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_delete_title">¿Eliminar publicación?</string>
+    <string name="dialog_delete_message">Se borrará esta publicación y su foto. Esta acción no se puede deshacer.</string>
+    <string name="dialog_claim_title">¿Es tuyo este objeto?</string>
+    <string name="dialog_claim_message">Describe algo que solo el dueño sabría (por ejemplo, cuántas llaves tiene).</string>
+    <string name="dialog_claim_answer_label">Tu respuesta</string>
+    <string name="dialog_claim_send">Enviar reclamo</string>
+    <string name="dialog_delivered_title">Marcar como entregado</string>
+    <string name="dialog_delivered_question">¿Cómo se resolvió?</string>
+
+    <!-- Messages -->
+    <string name="message_item_saved">Publicación guardada</string>
+    <string name="message_item_deleted">Publicación eliminada</string>
+    <string name="message_claim_sent">Reclamo enviado</string>
+    <string name="message_item_delivered">Objeto marcado como entregado</string>
+</resources>

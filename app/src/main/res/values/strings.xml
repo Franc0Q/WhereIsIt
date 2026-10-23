@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">WhereIsIt</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_my_posts">My posts</string>
+
+    <!-- Common actions -->
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_publish">Publish</string>
+    <string name="action_save">Save</string>
+    <string name="action_view_details">View details</string>
+    <string name="action_clear_filters">Clear filters</string>
+
+    <!-- Home list -->
+    <string name="home_search_hint">Search item…</string>
+    <string name="home_empty">No items found</string>
+    <string name="item_category_label">Category:</string>
+
+    <!-- Filters -->
+    <string name="filter_all">All</string>
+    <string name="filter_lost">Lost</string>
+    <string name="filter_found">Found</string>
+    <string name="filter_delivered">Delivered</string>
+    <string name="filter_category">Category</string>
+    <string name="filter_zone">Zone</string>
+    <string name="filter_date">Date</string>
+
+    <!-- Status badges -->
+    <string name="status_lost">Lost</string>
+    <string name="status_found">Found</string>
+    <string name="status_delivered">Delivered</string>
+
+    <!-- Categories -->
+    <string name="category_backpack">Backpacks</string>
+    <string name="category_keys">Keys</string>
+    <string name="category_phone">Phones</string>
+    <string name="category_documents">Documents</string>
+    <string name="category_wallet">Wallets</string>
+    <string name="category_clothing">Clothing</string>
+    <string name="category_electronics">Electronics</string>
+    <string name="category_other">Other</string>
+
+    <!-- Campus zones -->
+    <string name="zone_library">Library</string>
+    <string name="zone_cafeteria">Cafeteria</string>
+    <string name="zone_building_a">Building A</string>
+    <string name="zone_building_b">Building B</string>
+    <string name="zone_gym">Gym</string>
+    <string name="zone_parking">Parking lot</string>
+    <string name="zone_other">Other</string>
+
+    <!-- Delivery methods -->
+    <string name="delivery_picked_up_by_owner">Picked up by its owner</string>
+    <string name="delivery_left_at_security">Left at campus security</string>
+
+    <!-- Detail -->
+    <string name="detail_title">Detail</string>
+    <string name="detail_posted_by">Posted by</string>
+    <string name="detail_claim_button">Contact / Claim</string>
+    <string name="detail_mark_delivered">Mark as delivered</string>
+    <string name="detail_not_found">Item not found</string>
+
+    <!-- Form -->
+    <string name="form_title_new">New post</string>
+    <string name="form_title_edit">Edit post</string>
+    <string name="form_type_lost">I lost it</string>
+    <string name="form_type_found">I found it</string>
+    <string name="form_photo_placeholder">Take a photo or choose from the gallery</string>
+    <string name="form_field_title">Title</string>
+    <string name="form_field_category">Category</string>
+    <string name="form_field_description">Description</string>
+    <string name="form_description_hint">Color, brand, unique details…</string>
+    <string name="form_field_location">Location</string>
+    <string name="form_location_hint">Tap to pick it on the map</string>
+    <string name="form_field_date">Date</string>
+
+    <!-- Validation errors -->
+    <string name="error_title_required">Enter a title</string>
+    <string name="error_description_required">Enter a description</string>
+    <string name="error_location_required">Pick a location on the map</string>
+    <string name="error_claim_answer_required">Write your answer</string>
+
+    <!-- Photo picker -->
+    <string name="photo_sheet_title">Add photo</string>
+    <string name="photo_take">Take a photo with the camera</string>
+    <string name="photo_gallery">Choose from the gallery</string>
+    <string name="photo_video">Record a short video</string>
+    <string name="permission_camera_denied">Camera permission is needed to take photos</string>
+
+    <!-- Map -->
+    <string name="map_title">Campus map</string>
+    <string name="map_pick_location">Select location</string>
+
+    <!-- My posts -->
+    <string name="my_posts_title">My posts</string>
+    <string name="my_posts_empty">You have not posted anything yet</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_delete_title">Delete post?</string>
+    <string name="dialog_delete_message">This post and its photo will be deleted. This action cannot be undone.</string>
+    <string name="dialog_claim_title">Is this yours?</string>
+    <string name="dialog_claim_message">Describe something only the owner would know (for example, how many keys it has).</string>
+    <string name="dialog_claim_answer_label">Your answer</string>
+    <string name="dialog_claim_send">Send claim</string>
+    <string name="dialog_delivered_title">Mark as delivered</string>
+    <string name="dialog_delivered_question">How was it resolved?</string>
+
+    <!-- Messages -->
+    <string name="message_item_saved">Post saved</string>
+    <string name="message_item_deleted">Post deleted</string>
+    <string name="message_claim_sent">Claim sent</string>
+    <string name="message_item_delivered">Item marked as delivered</string>
+</resources>
