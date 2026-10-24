@@ -115,4 +115,6 @@
     <string name="message_item_deleted">Post deleted</string>
     <string name="message_claim_sent">Claim sent</string>
     <string name="message_item_delivered">Item marked as delivered</string>
+    <string name="date_today">Today</string>
+    <string name="date_yesterday">Yesterday</string>
 </resources>
