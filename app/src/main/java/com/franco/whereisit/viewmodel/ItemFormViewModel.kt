@@ -52,7 +52,7 @@ class ItemFormViewModel(private val repository: IItemRepository) : ViewModel() {
         val existing = editingItem
 
         if (existing == null) {
-            val user = repository.getCurrentUser()
+            val user = repository.getCurrentUser() ?: return false
             repository.addItem(
                 LostItem(
                     title = title.trim(),

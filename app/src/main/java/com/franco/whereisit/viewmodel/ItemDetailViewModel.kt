@@ -17,14 +17,17 @@ class ItemDetailViewModel(private val repository: IItemRepository) : ViewModel()
         return item
     }
 
-    fun isOwner(): Boolean = item?.authorId == repository.getCurrentUser().id
+    fun isOwner(): Boolean {
+        val user = repository.getCurrentUser() ?: return false
+        return item?.authorId == user.id
+    }
 
     // Returns false if the answer is empty
     fun submitClaim(answer: String): Boolean {
         val current = item ?: return false
         if (answer.isBlank()) return false
 
-        val user = repository.getCurrentUser()
+        val user = repository.getCurrentUser() ?: return false
         repository.submitClaim(
             Claim(
                 itemId = current.id,

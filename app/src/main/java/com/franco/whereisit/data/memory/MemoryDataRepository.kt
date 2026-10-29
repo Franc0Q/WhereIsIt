@@ -12,7 +12,7 @@ import java.util.UUID
 
 class MemoryDataRepository : IItemRepository {
 
-    private val currentUser = User(id = "user-me", name = "Franco")
+    private var currentUser: User? = null
     private val items = mutableListOf<LostItem>()
     private val claims = mutableListOf<Claim>()
 
@@ -80,7 +80,11 @@ class MemoryDataRepository : IItemRepository {
         )
     }
 
-    override fun getCurrentUser(): User {
+    override fun getCurrentUser(): User? {
         return currentUser
+    }
+
+    override fun setCurrentUser(user: User) {
+        currentUser = user
     }
 }

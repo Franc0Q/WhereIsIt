@@ -12,7 +12,7 @@ class MyItemsViewModel(private val repository: IItemRepository) : ViewModel() {
         private set
 
     fun getMyItems(): List<LostItem> {
-        val userId = repository.getCurrentUser().id
+        val userId = repository.getCurrentUser()?.id ?: return emptyList()
         return repository.getFilteredItems(ItemFilter(authorId = userId))
     }
 

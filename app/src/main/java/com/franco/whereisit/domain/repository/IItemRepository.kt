@@ -15,5 +15,6 @@ interface IItemRepository {
     fun getFilteredItems(filter: ItemFilter): List<LostItem>
     fun markAsDelivered(id: String, method: DeliveryMethod)
     fun submitClaim(claim: Claim)
-    fun getCurrentUser(): User
+    fun getCurrentUser(): User?
+    fun setCurrentUser(user: User)
 }
