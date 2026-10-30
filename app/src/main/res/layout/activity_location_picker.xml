@@ -5,6 +5,81 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".LocationPickerActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_picker"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/surface"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationContentDescription="@string/cd_close"
+        app:navigationIcon="@drawable/ic_close"
+        app:title="@string/map_pick_location"
+        app:titleTextColor="@color/text_primary" />
+
+    <!-- Placeholder: the real map is added in a later task -->
+    <FrameLayout
+        android:id="@+id/mapContainer_picker"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#E6EFE6"
+        app:layout_constraintBottom_toTopOf="@id/layoutActions_picker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_picker">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/map_placeholder"
+            android:textColor="@color/text_secondary" />
+    </FrameLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardHint_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:cardBackgroundColor="@color/surface"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_picker">
+
+        <TextView
+            android:id="@+id/tvHint_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:text="@string/map_tap_hint"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:id="@+id/layoutActions_picker"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/surface"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnConfirm_picker"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/map_confirm_location"
+            app:backgroundTint="@color/primary" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -72,12 +72,10 @@
     <string name="form_type_found">I found it</string>
     <string name="form_photo_placeholder">Take a photo or choose from the gallery</string>
     <string name="form_field_title">Title</string>
-    <string name="form_field_category">Category</string>
     <string name="form_field_description">Description</string>
     <string name="form_description_hint">Color, brand, unique details…</string>
     <string name="form_field_location">Location</string>
     <string name="form_location_hint">Tap to pick it on the map</string>
-    <string name="form_field_date">Date</string>
 
     <!-- Validation errors -->
     <string name="error_title_required">Enter a title</string>
@@ -97,7 +95,6 @@
     <string name="map_pick_location">Select location</string>
 
     <!-- My posts -->
-    <string name="my_posts_title">My posts</string>
     <string name="my_posts_empty">You have not posted anything yet</string>
 
     <!-- Dialogs -->
@@ -107,7 +104,6 @@
     <string name="dialog_claim_message">Describe something only the owner would know (for example, how many keys it has).</string>
     <string name="dialog_claim_answer_label">Your answer</string>
     <string name="dialog_claim_send">Send claim</string>
-    <string name="dialog_delivered_title">Mark as delivered</string>
     <string name="dialog_delivered_question">How was it resolved?</string>
 
     <!-- Messages -->
@@ -123,4 +119,14 @@
     <string name="cd_item_photo">Item photo</string>
     <string name="cd_back">Back</string>
     <string name="cd_map_preview">Map preview</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_photo_preview">Selected photo</string>
+    <string name="form_date_picker_title">Select date</string>
+    <string name="map_placeholder">The map will be shown here</string>
+    <string name="map_confirm_location">Confirm location</string>
+    <string name="map_tap_hint">Tap the map to choose the spot</string>
+    <string name="dialog_name_title">Welcome</string>
+    <string name="dialog_name_message">Enter your name to get started.</string>
+    <string name="dialog_name_hint">Name</string>
+    <string name="error_name_required">Enter your name</string>
 </resources>
