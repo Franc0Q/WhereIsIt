@@ -117,4 +117,10 @@
     <string name="message_item_delivered">Item marked as delivered</string>
     <string name="date_today">Today</string>
     <string name="date_yesterday">Yesterday</string>
+
+    <!-- New strings for task #4 -->
+    <string name="cd_notifications">Notifications</string>
+    <string name="cd_item_photo">Item photo</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_map_preview">Map preview</string>
 </resources>
