@@ -51,8 +51,7 @@
                 android:paddingVertical="2dp"
                 android:textColor="@color/status_lost"
                 android:textSize="11sp"
-                android:textStyle="bold"
-                tools:text="LOST" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvTitle_item"
@@ -61,8 +60,7 @@
                 android:layout_marginTop="4dp"
                 android:textColor="@color/text_primary"
                 android:textSize="15sp"
-                android:textStyle="bold"
-                tools:text="Black Nike backpack" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvSubtitle_item"
@@ -70,8 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:textColor="@color/text_secondary"
-                android:textSize="12sp"
-                tools:text="Library · Today" />
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/tvCategory_item"
@@ -79,8 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:textColor="@color/text_secondary"
-                android:textSize="12sp"
-                tools:text="Category: Backpacks" />
+                android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

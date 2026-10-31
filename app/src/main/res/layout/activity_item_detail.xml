@@ -59,8 +59,7 @@
                     android:paddingVertical="2dp"
                     android:textColor="@color/status_lost"
                     android:textSize="11sp"
-                    android:textStyle="bold"
-                    tools:text="LOST" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/tvTitle_detail"
@@ -69,8 +68,7 @@
                     android:layout_marginTop="8dp"
                     android:textColor="@color/text_primary"
                     android:textSize="21sp"
-                    android:textStyle="bold"
-                    tools:text="Black Nike backpack" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/tvDateCategory_detail"
@@ -78,8 +76,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:textColor="@color/text_secondary"
-                    android:textSize="14sp"
-                    tools:text="Today · Backpacks" />
+                    android:textSize="14sp" />
 
                 <TextView
                     android:id="@+id/tvDescription_detail"
@@ -87,8 +84,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:textColor="@color/text_primary"
-                    android:textSize="14sp"
-                    tools:text="Backpack with a panda keychain and a blue notebook inside." />
+                    android:textSize="14sp" />
 
                 <TextView
                     android:id="@+id/tvLocation_detail"
@@ -96,8 +92,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:textColor="@color/text_secondary"
-                    android:textSize="14sp"
-                    tools:text="Library" />
+                    android:textSize="14sp" />
 
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/mapContainer_detail"
@@ -125,8 +120,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:textColor="@color/text_secondary"
-                    android:textSize="14sp"
-                    tools:text="Posted by Ana M." />
+                    android:textSize="14sp" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
