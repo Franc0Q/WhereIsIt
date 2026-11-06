@@ -12,9 +12,11 @@ import java.util.UUID
 
 class MemoryDataRepository : IItemRepository {
 
-    private var currentUser: User? = null
-    private val items = mutableListOf<LostItem>()
-    private val claims = mutableListOf<Claim>()
+    companion object {
+        private var currentUser: User? = null
+        private val items = mutableListOf<LostItem>()
+        private val claims = mutableListOf<Claim>()
+    }
 
     // Newest first (reversed() makes the last added item win ties on the same day)
     override fun getItems(): List<LostItem> {

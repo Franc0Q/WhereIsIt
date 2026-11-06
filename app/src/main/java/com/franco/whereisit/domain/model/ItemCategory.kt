@@ -6,5 +6,8 @@ enum class ItemCategory {
     PHONE,
     DOCUMENTS,
     CLOTHES,
-    BOTTLES
+    BOTTLES,
+    WALLET,
+    OTHER,
+    ELECTRONICS
 }
