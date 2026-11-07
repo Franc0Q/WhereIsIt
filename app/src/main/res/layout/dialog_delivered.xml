@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_delivered_question"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:id="@+id/rgMethod_delivered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/rbPickedUp_delivered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/delivery_picked_up_by_owner" />
+
+        <RadioButton
+            android:id="@+id/rbSecurity_delivered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delivery_left_at_security" />
+    </RadioGroup>
+</LinearLayout>

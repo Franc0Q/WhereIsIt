@@ -72,12 +72,10 @@
     <string name="form_type_found">Lo encontré</string>
     <string name="form_photo_placeholder">Tomar foto o elegir de la galería</string>
     <string name="form_field_title">Título</string>
-    <string name="form_field_category">Categoría</string>
     <string name="form_field_description">Descripción</string>
     <string name="form_description_hint">Color, marca, detalles únicos…</string>
     <string name="form_field_location">Lugar</string>
     <string name="form_location_hint">Tocar para elegir en el mapa</string>
-    <string name="form_field_date">Fecha</string>
 
     <!-- Validation errors -->
     <string name="error_title_required">Escribe un título</string>
@@ -97,7 +95,6 @@
     <string name="map_pick_location">Seleccionar ubicación</string>
 
     <!-- My posts -->
-    <string name="my_posts_title">Mis publicaciones</string>
     <string name="my_posts_empty">Aún no has publicado nada</string>
 
     <!-- Dialogs -->
@@ -107,7 +104,6 @@
     <string name="dialog_claim_message">Describe algo que solo el dueño sabría (por ejemplo, cuántas llaves tiene).</string>
     <string name="dialog_claim_answer_label">Tu respuesta</string>
     <string name="dialog_claim_send">Enviar reclamo</string>
-    <string name="dialog_delivered_title">Marcar como entregado</string>
     <string name="dialog_delivered_question">¿Cómo se resolvió?</string>
 
     <!-- Messages -->
@@ -116,5 +112,21 @@
     <string name="message_claim_sent">Reclamo enviado</string>
     <string name="message_item_delivered">Objeto marcado como entregado</string>
     <string name="date_yesterday">Ayer</string>
-    <string name="date_today">Hoy</string> <!-- values-es: Ayer -->
+    <string name="date_today">Hoy</string>
+
+    <!-- New strings for task #4 -->
+    <string name="cd_notifications">Notificaciones</string>
+    <string name="cd_item_photo">Foto del objeto</string>
+    <string name="cd_back">Regresar</string>
+    <string name="cd_map_preview">Vista previa del mapa</string>
+    <string name="cd_close">Cerrar</string>
+    <string name="cd_photo_preview">Foto seleccionada</string>
+    <string name="form_date_picker_title">Seleccionar fecha</string>
+    <string name="map_placeholder">Aquí se mostrará el mapa</string>
+    <string name="map_confirm_location">Confirmar ubicación</string>
+    <string name="map_tap_hint">Toca el mapa para elegir el lugar</string>
+    <string name="dialog_name_title">Bienvenido</string>
+    <string name="dialog_name_message">Escribe tu nombre para comenzar.</string>
+    <string name="dialog_name_hint">Nombre</string>
+    <string name="error_name_required">Escribe tu nombre</string>
 </resources>
