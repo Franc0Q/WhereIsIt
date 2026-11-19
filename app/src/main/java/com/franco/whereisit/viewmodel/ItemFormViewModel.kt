@@ -6,6 +6,7 @@ import com.franco.whereisit.R
 import com.franco.whereisit.domain.model.CampusZone
 import com.franco.whereisit.domain.model.Coordinates
 import com.franco.whereisit.domain.model.ItemCategory
+import com.franco.whereisit.domain.model.ItemFilter
 import com.franco.whereisit.domain.model.ItemStatus
 import com.franco.whereisit.domain.model.LostItem
 import com.franco.whereisit.domain.repository.IItemRepository
@@ -21,11 +22,33 @@ class ItemFormViewModel(private val repository: IItemRepository) : ViewModel() {
     var photoUri: String? = null
     var coordinates: Coordinates? = null
 
-    fun loadItem(id: String) {
-        val item = repository.getById(id) ?: return
+    fun loadItem(id: String): Boolean {
+        val item = repository.getById(id) ?: return false
         editingItem = item
         photoUri = item.photoUri
         coordinates = item.coordinates
+        return true
+    }
+
+    // Searches only the posts of the current user. Exact title first, then the newest match.
+    fun searchByTitle(query: String): LostItem? {
+        val text = query.trim()
+        val authorId = repository.getCurrentUser()?.id ?: return null
+        val results = repository.getFilteredItems(ItemFilter(query = text, authorId = authorId))
+        return results.firstOrNull { it.title.equals(text, ignoreCase = true) }
+            ?: results.firstOrNull()
+    }
+
+    fun deleteItem() {
+        val item = editingItem ?: return
+        repository.deleteItem(item.id)
+        editingItem = null
+    }
+
+    fun reset() {
+        editingItem = null
+        photoUri = null
+        coordinates = null
     }
 
     // Returns the error message (string resource) or null when everything is valid

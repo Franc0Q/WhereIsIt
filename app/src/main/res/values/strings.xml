@@ -129,4 +129,13 @@
     <string name="dialog_name_message">Enter your name to get started.</string>
     <string name="dialog_name_hint">Name</string>
     <string name="error_name_required">Enter your name</string>
+
+    <!-- New strings for task #5 -->
+    <string name="form_search_hint">Search your post by title</string>
+    <string name="cd_search">Search</string>
+    <string name="dialog_update_title">Save changes?</string>
+    <string name="dialog_update_message">The post will be updated with the new information.</string>
+    <string name="message_item_updated">Post updated</string>
+    <string name="category_bottles">Bottles</string>
+    <string name="form_location_value">%1$s, %2$s</string>
 </resources>
